@@ -1,0 +1,90 @@
+.container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:  #089950;
+    border: cornsilk solid 10px;
+    border-radius: 50px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+input{
+    background-color: indianred;
+    border: cornsilk solid 5px;
+    border-radius: 15px;
+    width: 72%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 24px;
+    color: #404040;
+}
+
+.input::-webkit-input-placeholder{
+	color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+.operator-container{
+    margin-top: 10px;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.operator-container button{
+    border: none;
+    background: coral;
+    border: cornsilk solid 5px;
+    width: 25%;
+    height: 45%;
+    border-radius: 15px;
+    margin: 2%;
+
+    text-align: center;
+    color: #404040;
+    font-size: 50px;
+}
+
+.hasil {
+    background-color: palevioletred;
+    border: cornsilk solid 5px;
+    border-radius: 10px;
+    width: 310px;
+    height: 104px;
+    margin-top: 20px;
+}
+
+.operasi-hasil{
+    text-align: right;
+    color: #404040;
+    margin: 4% 2%;
+    height: 12%;
+}
+
+.nilai-hasil{
+    text-align: right;
+    color: #202020;
+    margin: 0% 2% 4% 2%;
+    font-size: 50px;
+}
